@@ -1,0 +1,11 @@
+AC4 - Programação Orientada a Objetos
+Projeto: Brinquedos Esportivos (Spring Boot)
+
+Integrantes:
+- Nicolas Mendes - RA 202501027474
+- Arthur Franco Siqueira - RA 202501002404
+
+GitHub: https://github.com/nnicolas33/ac4-brinquedos
+IDE utilizada: IntelliJ IDEA
+
+Vídeo: COLE_O_LINK_AQUI
