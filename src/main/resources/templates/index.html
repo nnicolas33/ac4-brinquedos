@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Brinquedos Esportivos</title>
+    <link rel="stylesheet" th:href="@{/css/estilo.css}">
+</head>
+<body>
+<header>
+    <h1>Brinquedos Esportivos</h1>
+    <a class="botao" th:href="@{/login}">Entrar</a>
+</header>
+
+<section class="hero">
+    <h2>Esporte é brincadeira séria</h2>
+    <p>Bolas, raquetes, patins e muito mais para crianças de até 15 anos.
+        Cada brinquedo tem classificação por idade e tamanho certo para cada fase.</p>
+    <a class="botao" th:href="@{/login}">Acessar o sistema</a>
+</section>
+
+<section class="cards">
+    <div class="card">
+        <h3>Seguro</h3>
+        <p>Classificação indicativa de 0 a 15 anos em todos os produtos.</p>
+    </div>
+    <div class="card">
+        <h3>Tamanhos P, M e G</h3>
+        <p>Brinquedos pensados para o tamanho de cada criança.</p>
+    </div>
+    <div class="card">
+        <h3>Catálogo completo</h3>
+        <p>Equipe interna consulta e gerencia o estoque pelo sistema.</p>
+    </div>
+</section>
+</body>
+</html>

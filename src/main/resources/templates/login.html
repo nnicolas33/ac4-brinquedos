@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Entrar - Brinquedos Esportivos</title>
+    <link rel="stylesheet" th:href="@{/css/estilo.css}">
+</head>
+<body>
+<div class="caixa-login">
+    <h2>Entrar no sistema</h2>
+
+    <div class="aviso erro" th:if="${param.error}">Usuário ou senha inválidos.</div>
+    <div class="aviso ok" th:if="${param.logout}">Você saiu do sistema.</div>
+
+    <form th:action="@{/login}" method="post">
+        <label for="username">Usuário</label>
+        <input type="text" id="username" name="username" required autofocus>
+
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit" class="botao">Entrar</button>
+    </form>
+
+    <a class="voltar" th:href="@{/}">Voltar para a página inicial</a>
+</div>
+</body>
+</html>
